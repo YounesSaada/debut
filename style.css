@@ -6,7 +6,7 @@ body {
   }
   
   .head {
-    background-color: #1976d2;
+    background-color: #0d7ceb;
     color: #fff;
     display: flex;
     align-items: center;
@@ -93,7 +93,7 @@ body {
   }
   
   #todo .task {
-    background-color: #b3e5fc;
+    background-color: #b2e7ff;
     /* Light blue */
   }
   
