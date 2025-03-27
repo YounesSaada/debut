@@ -1,6 +1,13 @@
-import expres from 'express'; // import express
+import express from 'express'; // import express
+import path from 'path';
+
+
 const PORT  = 8888; // port number
-const app = expres(); // create express application
+const app = express(); // create express application
+const publiDirectoryPath = path.join("public"); // public directory path
+
+
+app.use(express.static(publiDirectoryPath)); // use public directory
 app.get('/ping', function(req, res)  { // root path
  res.send('pong'); // response
 });
